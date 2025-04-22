@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>contact</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">ホーム</a>
+        <a href="about.html">自己紹介</a>
+        <a href="contact.html">お問い合わせ</a>
+    </nav>
+    
+    <h2>お問い合わせフォーム</h2>
+    <form action="#" method="post" class="contact-form">
+        <label for="name">お名前：</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">メールアドレス：</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">メッセージ：</label>
+        <textarea name="message" id="message" rows="4" required></textarea><br><br>
+
+        <label for="reason">お問い合わせ種別：</label>
+        <select name="reason" id="reason">
+            <option value="質問">質問</option>
+            <option value="要望">要望</option>
+            <option value="その他">その他</option>
+        </select><br><br>
+
+        <button type="submit">送信する</button>
+    </form>
+</body>
+</html>

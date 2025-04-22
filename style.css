@@ -98,4 +98,22 @@ th, td {
   .contact-form button:hover {
     background-color: #ff85c1;
   }
+
+  .navbar {
+    background-color: #ffb6c1;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+  }
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
   
