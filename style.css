@@ -1,16 +1,69 @@
+/* 背景と文字 */
 body {
-    background-color: skyblue;
-    font-family: sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.6;
+  margin: 40px;
 }
-h1 {
-    color: black;
+
+/* 見出し */
+h1, h2 {
+  color: #ff69b4;
+  border-bottom: 2px solid #ffc0cb;
+  padding-bottom: 5px;
 }
+
+/* リストの見た目 */
+ul {
+  background-color: #fff0f5;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* リンクにホバー効果 */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* 画像に影 */
+img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+img:hover {
+  transform: scale(1.05);
+}
+
+/* 表のスタイル */
 table {
-border-collapse: collapse;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+th {
+  background-color: #ffb6c1;
+  color: white;
 }
 th, td {
-padding: 8px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
 }
-img {
-border-radius: 8px;
+
+/* フレックスボックス（Day3チャレンジ） */
+.flex-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+.flex-box {
+  background-color: #fffaf0;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1;
 }
